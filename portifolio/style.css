@@ -28,11 +28,12 @@ body{
     border: 0;
     border-radius: 30px;
     cursor: pointer;
+    transition: .3s;
 }
 
 button:hover, form .btn-enviar input:hover{
     box-shadow: 0px 0px 8px #00ff08;
-    font-size: 19px;
+    transform: scale(1.1);
 }
 
 h2.titulo{
@@ -70,7 +71,7 @@ header a{
 
 header a:hover{
   color: white;
-  font-size: 17px;
+  transform: scale(1.1);
 }
 
 header nav ul{
